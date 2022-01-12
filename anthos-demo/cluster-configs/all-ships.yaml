@@ -1,8 +1,0 @@
-kind: ClusterSelector
-apiVersion: configmanagement.gke.io/v1
-metadata:
-  name: selector-all-ships
-spec:
-  selector:
-    matchLabels:
-      environment: prod
