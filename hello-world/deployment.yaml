@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: hello-deployment
   annotations:
-    configmanagement.gke.io/cluster-selector: selector-ship2
+    configmanagement.gke.io/cluster-selector: selector-all-ships
 spec:
   selector:
     matchLabels:
